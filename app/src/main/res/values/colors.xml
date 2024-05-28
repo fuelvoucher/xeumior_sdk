@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00f90909</color>
+    <color name="black">#000000</color>
+    <color name="gray">#666666</color>
+    <color name="blue">#2db3ff</color>
+    <color name="text_black">#333333</color>
+    <color name="divider_line">#efefef</color>
+    <color name="text_main_color">#333333</color>
+    <color name="text_second_color">#666666</color>
+    <color name="text_third_color">#9a9a9a</color>
+    <color name="divider_line_xm">#c7c7c7</color>
+    <color name="background_color">#f7f7f7</color>
+    <color name="search_bg">#e7e7e7</color>
+    <color name="can_call">#2FB2FF</color>
+    <color name="no_call">#c7c7c7</color>
+    <color name="girl_red">#fb567d</color>
+    <color name="no_call_state">#e22a1e</color>
+    <color name="ec_voip_interface_text_color">#ffffff</color>
+    <color name="ec_voip_talk_bg_color">#ff404040</color>
+
+    <color name="navpage">#ffffffff</color>
+    <color name="list_devider_color">#fff2f2f2</color>
+    <color name="hint_text_color">#ff999999</color>
+    <color name="normal_text_color">#ff353535</color>
+    <color name="tab_text_gray">#a8a8a8</color>
+
+
+    //联系人处右侧字母未选中颜色
+    <color name="contact_zimu_unselected">#D3D3D3</color>
+
+    //联系人处右侧字母选中颜色
+    <color name="contact_zimu_selected">#2FB2FF</color>
+
+</resources>

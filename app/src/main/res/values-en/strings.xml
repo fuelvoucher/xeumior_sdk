@@ -1,0 +1,509 @@
+<resources>
+    <string name="app_name">DEMO</string>
+    <string name="system_interface">System Interface</string>
+    <string name="magnetic_card1">Magnetic Card</string>
+    <string name="ic_card">IC Card</string>
+    <string name="nfc">NFC</string>
+    <string name="psam">PSAM</string>
+    <string name="pinpad">Pinpad</string>
+    <string name="printer">Printer</string>
+    <string name="barcode">Barcode</string>
+    <string name="beep">Beep</string>
+    <string name="led">LED</string>
+    <string name="decode">Dcode</string>
+    <string name="emv_test">EMV Test</string>
+
+
+    <!--SystemInfoActivity-->
+    <string name="getSerialNo">Get SerialNo</string>
+    <string name="getKsn">Get KSN</string>
+    <string name="getDriverVersion">Get Driver Version</string>
+    <string name="getSDKVersion">SDK Version</string>
+    <string name="updateSysTime">Update Systemtime</string>
+    <string name="getStoragePath">Get Storage Path</string>
+    <string name="updateDriver">Update Driver</string>
+    <string name="getIMSI">Get IMSI</string>
+    <string name="getModel">Get Model</string>
+    <string name="getICCID">Get ICC ID</string>
+    <string name="getIMEI">Get IMEI</string>
+    <string name="getHardwareInfo">Get Hardware Info</string>
+    <string name="getSecurityDriverInfo">Get Security Driver Info</string>
+    <string name="getManufactureName">Get Manufacture Name</string>
+    <string name="getAndroidOsVersion">Get OS Version</string>
+    <string name="getAndroidRomVersion">Get Rom Version</string>
+    <string name="getKernelVersion">Get Kernel Version</string>
+    <string name="reboot">Reboot</string>
+    <string name="updateFirmware">Update Firmware</string>
+    <string name="getUpdateFirmwareState">Get Update Firmware State</string>
+    <string name="setAPN">Set APN</string>
+    <string name="reboot_confirm">Reboot Confirm</string>
+
+
+    <!--SwipeCardActivity-->
+    <string name="getTrackData">Get Track Data</string>
+    <string name="getEncryptTrackData">Get Encrypt Track Data</string>
+    <string name="getEncryptFormatTrackData">Get Encrypt Format Track Data</string>
+    <string name="cancelSwipe">Cancel Swipe</string>
+
+    <string name="swipecard">Swipe</string>
+    <string name="swipe_timeout">Swipe Timeout</string>
+    <string name="swipe_success">Swipe Success</string>
+    <string name="swipe_faile">Swipe Faile</string>
+    <string name="track_data">Track Data</string>
+    <string name="card_no">Card Number</string>
+    <string name="expiryDate">Expiry Date</string>
+    <string name="format_data">Formated Data</string>
+    <string name="service_code">Service Code</string>
+    <string name="swipe_error">Swipe error,errorCode is</string>
+    <string name="swipe_canceled">Canceled</string>
+    <string name="track2_encryptdata">Track 2 encrypted data</string>
+    <string name="track3_encryptdata">Track 3 encrypted data</string>
+    <string name="track_encryptdata">Encrypted formatted track data</string>
+    <string name="no_swipe">Not credit card</string>
+    <string name="interrupted_success">Interrupted successfully</string>
+    <string name="interrupted_error">Interrupted error</string>
+
+
+    <!--IC Card-->
+    <string name="ic_open">Open</string>
+    <string name="ic_reset">Reset</string>
+    <string name="ic_exists">Check card</string>
+    <string name="ic_apdu">Send apdu command</string>
+    <string name="ic_halt">Halt</string>
+    <string name="ic_close">Close</string>
+    <string name="ic_pboc">Read pboc card Number</string>
+
+    <string name="ic_open_success">Open IC device successfully</string>
+    <string name="ic_open_faile">Failed to open IC card device</string>
+    <string name="ic_dotnot_click_quickly">Do not click quickly</string>
+    <string name="ic_close_success">Close IC device successfully</string>
+    <string name="ic_close_faile">Failed to close IC card device</string>
+    <string name="ic_halt_success">Halt IC device successfully</string>
+    <string name="ic_halt_faile">Failed to halt IC card device</string>
+    <string name="ic_main_dir_result">Select the Main directory result</string>
+    <string name="ic_apdu_faile">APDU data exchange failed</string>
+    <string name="ic_reset_result">Card reset result</string>
+    <string name="ic_reset_faile">Failed to reset</string>
+    <string name="ic_card_exist">Card inserted</string>
+    <string name="ic_card_notexist">No card detected</string>
+
+    <!--NFC-->
+    <string name="nfc_card_type">Card type</string>
+    <string name="card_type_auto">Auto Read</string>
+
+    <string name="nfc_autoread">Start Auto Read</string>
+    <string name="nfc_autoread_stop">Stop Auto Read</string>
+    <string name="nfc_open">Open</string>
+    <string name="nfc_reset">Reset</string>
+    <string name="nfc_exists">Check card</string>
+    <string name="nfc_cardtype">Card type</string>
+    <string name="nfc_apdu">Send apdu command</string>
+    <string name="nfc_pboc">Read pboc card Number</string>
+    <string name="nfc_auth">Auth</string>
+    <string name="nfc_readblock">Read block</string>
+    <string name="nfc_writeblock">Write block</string>
+    <string name="nfc_halt">Halt</string>
+
+
+    <string name="nfc_open_success">Open the device successfully</string>
+    <string name="nfc_open_faile">Failed to open the device</string>
+    <string name="nfc_close_success">Close the device successfully</string>
+    <string name="nfc_close_faile">Failed to close the device</string>
+    <string name="nfc_card_exist">Card detected</string>
+    <string name="nfc_card_notexist">No card detected</string>
+
+    <string name="nfc_halt_success">Halt the device successfully</string>
+    <string name="nfc_halt_faile">Failed to halt the device</string>
+    <string name="nfc_read_cardtype_faile">Failed to read cardtype</string>
+    <string name="nfc_read_cardtype_success">Card type:</string>
+    <string name="nfc_apdu_success">APDU result</string>
+    <string name="nfc_apdu_faile">APDU failed to be executed</string>
+    <string name="nfc_auth_result">The result of the certification is:</string>
+    <string name="nfc_auth_success">Authentication successful</string>
+    <string name="nfc_auth_faile">Authentication failed</string>
+    <string name="nfc_read_success">Block data read successfully</string>
+    <string name="nfc_read_faile">Failed to read block data</string>
+
+    <string name="nfc_write_result">Write block data returns:</string>
+    <string name="nfc_write_success">Write block data successfully</string>
+    <string name="nfc_write_faile">Write block data failed</string>
+
+
+    <!--打印机-->
+    <string name="print_status">Get the printer status</string>
+    <string name="print_text">Print text</string>
+    <string name="print_code">Print barcode</string>
+    <string name="print_pic">Print image</string>
+    <string name="print_qrcode">Print Qrcode</string>
+
+
+    <string name="print_success">Print successfully</string>
+    <string name="print_faile">Printing failed</string>
+    <string name="print_faile_errcode">Printing failed,errcode：</string>
+
+    <string name="get_print_status">Get the printer status：</string>
+
+
+    <string name="print_begin">Start printing, start time is：</string>
+
+    <string name="print_data1">Default print data</string>
+    <string name="print_data2">Print data font enlarge</string>
+    <string name="print_data3">Print data bold</string>
+    <string name="print_data4">Left-aligned print data</string>
+    <string name="print_data5">Center the print data alignment</string>
+    <string name="print_data6">Right-aligned print data</string>
+    <string name="print_data7">Print data underlined</string>
+    <string name="print_data8">Print data does not wrap</string>
+    <string name="print_data9">Print data line spacing</string>
+    <string name="print_data10">Print data character spacing</string>
+    <string name="print_data11">Print data left margin</string>
+    <string name="print_end">Print completed, the end time is：</string>
+    <string name="print_Arabic">Arabic Printing</string>
+    <string name="print_sabra">Sabra Printing</string>
+
+    <!--卡片类型-->
+    <string name="card_type_m1">M1 Card</string>
+    <string name="card_type_nfc_cpu">CPU Card</string>
+
+
+    <!--PSAM-->
+    <string name="psam_slot">PSAM slot</string>
+    <string name="psam_open">Open</string>
+    <string name="psam_reset">Reset</string>
+    <string name="psam_apdu">Send apdu command</string>
+    <string name="psam_halt">Halt</string>
+    <string name="psam_open_success">PSAM card device opens successfully</string>
+    <string name="psam_open_faile">PSAM card device failed to open</string>
+    <string name="psam_reset_success">PSAM card device reset successfully</string>
+    <string name="psam_reset_faile">PSAM card device failed to reset</string>
+    <string name="psam_close_success">PSAM card device close successfully</string>
+    <string name="psam_close_faile">PSAM card device failed to close</string>
+
+
+    <!--扫码-->
+    <string name="qrcode">Scan</string>
+    <string name="qrcode_stop">Stop to scan</string>
+    <string name="qrcode_back_camera">Use the rear camera scan code</string>
+    <string name="qrcode_result">Result</string>
+    <string name="qrcode_cancel">Cancel scan</string>
+    <string name="qrcode_timeout">Scan timeout</string>
+    <string name="qrcode_openfaile">Open camera faile</string>
+
+    <!--解码-->
+    <string name="decode_init">Init</string>
+    <string name="decode1">Decode</string>
+    <string name="decode_init_success">Decoding initialization is successful</string>
+    <string name="decode_init_faile">Decoding initialization failed</string>
+    <string name="decode_data">Decode result:</string>
+    <string name="decode_data_non">No decoding data</string>
+    <string name="decode_exit">exit successfully</string>
+
+
+    <!--蜂鸣器-->
+    <string name="beep_start">Start beep</string>
+    <string name="beep_stop">Stop beep</string>
+
+
+    <!--LED-->
+    <string name="led_start">Start Marquee</string>
+    <string name="led_stop">Stop Marquee</string>
+
+    <!--Other-->
+    <string name="tip_cmd">Interface</string>
+    <string name="tip_log">Log</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="result">Result</string>
+    <string name="error_code">ErrorCode:</string>
+
+
+
+    <!--pinpad-->
+    <string name="pinpad_type">Pinpad type</string>
+    <string name="pinpad_type_internal">Internal</string>
+    <string name="pinpad_type_external">External</string>
+    <string name="pinpad_mode">Pinpad Mode</string>
+    <string name="pinpad_mode_sequence">sequence</string>
+    <string name="pinpad_mode_random">random</string>
+
+
+    <string name="pinpad_read_pin">Read pin</string>
+    <string name="pinpad_set_pin_second">Second pin</string>
+    <string name="pinpad_input_masterkey">Inject masterkey</string>
+    <string name="pinpad_input_pik">Inject PIK</string>
+    <string name="pinpad_input_tdk">Inject TDK</string>
+    <string name="pinpad_input_masterkey_mak">Inject masterkey mak</string>
+    <string name="pinpad_encrypt_tdk">Encrypt tdk</string>
+    <string name="pinpad_get_random">Get random</string>
+    <string name="pinpad_cancel_input_pin">Cancel input pin</string>
+    <string name="pinpad_get_offline_pin">Get offline pin</string>
+    <string name="pinpad_input_tek">Inject TEK</string>
+    <string name="pinpad_input_tek_encrypt_masterkey">Inject the TEK encrypted master key</string>
+    <string name="pinpad_input_tek_encrypt_mak">Inject TEK encrypted MAK</string>
+    <string name="pinpad_input_tek_pik">Inject TEK encrypted PIK</string>
+    <string name="pinpad_input_tek_tdk">Inject TEK encrypted TDK</string>
+    <string name="pinpad_compute_mac">Calculate MAC</string>
+    <string name="pinpad_show">Pinpad display</string>
+    <string name="pinpad_confim_input">Confirm PIN input</string>
+    <string name="pinpad_get_dukpt_pin">Get dukpt PIN</string>
+    <string name="pinpad_get_ksn">KSN:</string>
+    <string name="pinpad_dukpt_inject">Inject DUKPT</string>
+    <string name="pinpad_inject_dukpt_key">Inject DUKPT key</string>
+    <string name="ok">OK</string>
+    <string name="pinpad_input_error_lenght">error length</string>
+    <string name="pinpad_please_input_code">KSN invalid</string>
+    <string name="input_ksn">KSN</string>
+    <string name="input_dukpt_key">DUKPT</string>
+    <string name="pin_dukpt_key_inject_success">Inject dukpt successfully</string>
+    <string name="pin_dukpt_key_inject_fail">Failed dukpt filling</string>
+
+
+
+
+    <string name="pinpad_mess1">Do not support the external password keyboard, select the built-in password keyboard</string>
+    <string name="pinpad_input_pin">Inject PIK</string>
+    <string name="pinpad_cancel_pin">Canceled the PIN</string>
+    <string name="pinpad_error_pin">Read PIN error,errorcode is:</string>
+    <string name="pinpad_success_pin">Inject PIN successfully</string>
+    <string name="pinpad_empty_pin">,entered a blank password</string>
+    <string name="pinpad_is_pin">,PIN is</string>
+
+    <string name="pinpad_injectMain">Inject the master key plain text</string>
+    <string name="pinpad_injectMain_confirm">Confirm to inject the invalid master key</string>
+    <string name="pinpad_master_key">Master key：</string>
+    <string name="pinpad_master_key_fill_success">Master key fill success</string>
+    <string name="pinpad_master_key_fill_faile">Failed master key filling</string>
+    <string name="pinpad_pik_master">PIK Ciphertext(master)：</string>
+    <string name="pinpad_pik_fill_success">PIK fill success</string>
+    <string name="pinpad_pik_fill_faile">Failed PIK filling</string>
+    <string name="pin_mac_error_code">Get mac error code:</string>
+    <string name="pin_mac_919_mac_success1">Get mac success</string>
+    <string name="pin_mac_ecb_mac_success1">Get ecb mac success</string>
+    <string name="pin_mac_919_mac_success2">Get mac success</string>
+    <string name="pin_mac_ecb_mac_success2">Get ecb mac success</string>
+    <string name="pinpad_dukpt_get_mac">dukpt get mac</string>
+
+    <string name="pinpad_tdk_master">TDK Ciphertext(master)：</string>
+    <string name="pinpad_tdk_fill_success">TDK fill success</string>
+    <string name="pinpad_tdk_fill_faile">Failed TDK filling</string>
+
+    <string name="pinpad_mak_master">MAK Ciphertext(master)：</string>
+    <string name="pinpad_mak_fill_success">MAK fill success</string>
+    <string name="pinpad_mak_fill_faile">Failed MAK filling</string>
+
+    <string name="pinpad_encrypt_data">To be encrypted data</string>
+    <string name="pinpad_encrypt_success">Data encryption is successful</string>
+    <string name="pinpad_encrypt_faile">Data encryption failed</string>
+
+    <string name="pinpad_getrandom_success">Get a random number success</string>
+    <string name="pinpad_getrandom_faile">Failed to get random number</string>
+
+    <string name="pinpad_cancel_success">Interruption PIN inputed successfully</string>
+    <string name="pinpad_cancel_error">Abort PIN input error</string>
+
+
+    <string name="pinpad_injectTEK">Inject TEK plain text</string>
+    <string name="pinpad_injectTEK_confirm">Confirm to inject invalid TEK</string>
+    <string name="pinpad_TEK_key">TEK ciphertext：</string>
+    <string name="pinpad_TEK_fill_success">TEK fill success</string>
+    <string name="pinpad_TEK_fill_faile">Failed TEK filling</string>
+    <string name="pinpad_master">Master key cipher text：</string>
+    <string name="pinpad_master_fill_success">Master key fill success</string>
+    <string name="pinpad_master_fill_faile">Failed Master key filling</string>
+
+    <string name="pinpad_mak_tek_master">MAK cipher text(TEK)：</string>
+    <string name="pinpad_mak_tek_fill_success">MAK fill success</string>
+    <string name="pinpad_mak_tek_fill_faile">Failed MAK filling</string>
+
+    <string name="pinpad_pik_tek_master">PIK cipher text(TEK)：</string>
+    <string name="pinpad_pik_tek_fill_success">PIK fill success</string>
+    <string name="pinpad_pik_tek_fill_faile">Failed PIK filling</string>
+
+    <string name="pinpad_tdk_tek_master">TDK cipher text(TEK)：</string>
+    <string name="pinpad_tdk_tek_fill_success">TDK fill success</string>
+    <string name="pinpad_tdk_tek_fill_faile">Failed TDK filling</string>
+
+    <string name="pinpad_mac_error">Mac calculation failed ,error code:</string>
+    <string name="pinpad_mac_error1">Does not contain random numbers, x919 MAC successful calculation, the value is:</string>
+    <string name="pinpad_mac_error2">Excluding random numbers, UnionPay ECB performs MAC calculation successfully, the value is:</string>
+    <string name="pinpad_mac_error3">Containing random numbers, x919 MAC address calculation is successful, the value is:</string>
+    <string name="pinpad_mac_error4">With random numbers, UnionPay ECB performs MAC calculation successfully, the value is:</string>
+
+    <string name="pinpad_balance">Balance:</string>
+    <string name="pinpad_display_success">Show success</string>
+    <string name="pinpad_display_faile">Display failed</string>
+    <string name="pinpad_confirm_pin_success">Confirm PIN entered successfully</string>
+
+
+    <!--PBOC-->
+    <string name="check_card">Check Card</string>
+    <string name="check_card_with_encrypted_TDK">check Card With Encrypted TDK</string>
+    <string name="send_apdu_instruction">Send APDU Instruction</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="amount">Amount</string>
+    <string name="next_step">Next Step</string>
+    <string name="input_keyboard_display_mode">Please Input The Password Keyboard Display Mode (0 or 1)</string>
+    <string name="connection">Connection</string>
+    <string name="set_network_panel_display">Set The Network Panel Display</string>
+    <string name="set_network_panel_not_display">Set The Network Panel Not Display</string>
+    <string name="get_network_panel_is_displayed">Get Network Panel Whether Is Displayed</string>
+    <string name="set_panel_blue">Set Panel Blue</string>
+    <string name="set_panel_white">Set Panel White</string>
+    <string name="get_panel_color">Get Panel Color</string>
+    <string name="set_3G_signal_is_displayed">Set 3G Signal Is Displayed</string>
+    <string name="set_clock_is_displayed">Set Whether The Clock Is Displayed</string>
+    <string name="restore">Recovery</string>
+    <string name="set_panel_color">Set The Panel Color</string>
+    <string name="set_date_is_displayed">Set Whether The Date Is Displayed</string>
+    <string name="set_ethernet_connection_is_displayed">Set Whether The Ethernet Connection Is Displayed</string>
+    <string name="set_wifi_status_coexist_with_3G">Set Wifi Status Coexist With 3G</string>
+    <string name="set_display_wifi_icon">Set Whether to Display Wifi Icon</string>
+    <string name="get_web_panel_coordinates">Get The web Panel Coordinates</string>
+    <string name="set_web_panel_coordinates">Set The web Panel Coordinates</string>
+    <string name="get_date_format">Get The Date Format</string>
+    <string name="set_time_format">Set The Tate Format</string>
+    <string name="get_time_format">Get The Tate Format</string>
+    <string name="set_date_format">Set The Date Format</string>
+    <string name="cancel_check_card">Cancel Check Card</string>
+    <string name="cancel_check_encrypted_card">Cancel Check Encrypted Card</string>
+    <string name="consume">Consume</string>
+    <string name="read_e_cash_balance">Reading the electronic cash balance</string>
+    <string name="read_card_transaction_log">Read card transaction log</string>
+    <string name="read_the_looped_log">Read the looped log</string>
+    <string name="read_kernel_data">Read kernel data</string>
+    <string name="increase_public_key_parameters">Add public key</string>
+    <string name="update_public_key_parameters">Update the public key</string>
+    <string name="clear_public_key_parameters">Clear the public key</string>
+    <string name="clear_the_transaction_log">Clear the pay log</string>
+    <string name="interrupt_the_PBOC_process">Pause of the PBOC</string>
+    <string name="end_the_PBOC_process">End of the PBOC</string>
+    <string name="add_aid">Add AID</string>
+    <string name="update_aid">Update AID</string>
+    <string name="clear_aid">Clear AID</string>
+    <string name="set_tlv1">Setting parameters</string>
+    <string name="set_tlv2">Setting parameters(UTF-8)</string>
+    <string name="set_tlv3">Setting parameters(UTF-16)</string>
+    <string name="set_tlv4">Setting parameters(GBK)</string>
+    <string name="import_online_result">Import online result</string>
+    <string name="isexist_aid_publicKey">Is exist AID and public key</string>
+    <string name="confirm_account_type">Confirm account type</string>
+    <string name="account_type">Account type</string>
+    <string name="account_number">Account</string>
+    <string name="conform_information">Confirm information</string>
+    <string name="input_offline_pin">Input offline PIN</string>
+    <string name="input_frequency">current frequency</string>
+    <string name="is_final_input_frequency">It is final</string>
+    <string name="amount_msg">Trans amount:</string>
+    <string name="import_amount_type">Import amount type</string>
+    <string name="import_amount">Import amount</string>
+    <string name="confirm_electronic_cash">Confirm electronic cash</string>
+    <string name="choice_app_list">Choice the application list</string>
+    <string name="application_list_content">Application list content</string>
+    <string name="PBOC_result">Execute PBOC process finished</string>
+    <string name="allow_trading">Allow trading</string>
+    <string name="Refuse_to_deal">Refuse to deal</string>
+    <string name="stop_trading">Stop trading</string>
+    <string name="downgrade">Downgrade</string>
+    <string name="user_other_view">User other view</string>
+    <string name="unknown_exception">Unknown exception</string>
+    <string name="request_online">Request online</string>
+    <string name="transaction_information">Transaction information</string>
+    <string name="trans_type">Trans type:</string>
+    <string name="trans_time">Trans time:</string>
+    <string name="trans_date">Trans date:</string>
+    <string name="other_amount">Other amount:</string>
+    <string name="currency_code">Currency code:</string>
+    <string name="merchants_name">Merchants name:</string>
+    <string name="country_code">Country code:</string>
+    <string name="amount_of_the_transaction">Amount of the transaction</string>
+    <string name="transaction_statistics">Transaction statistics</string>
+    <string name="first_e_cash_money_code">First e-cash money code</string>
+    <string name="first_e_cash_balance">First e-cash balance</string>
+    <string name="second_e_cash_money_code">Second e-cash money code</string>
+    <string name="second_e_cash_balance">Second e-cash balance</string>
+    <string name="log_check_code">Log check code</string>
+    <string name="log_info_index">Article %d log information logging</string>
+    <string name="pboc_error">Execute PBOC process error</string>
+    <string name="card_info">Card infos</string>
+    <string name="please_confirm">Please confirm</string>
+    <string name="insert_or_swipe_card">Please swipe or insert card</string>
+    <string name="search_card_timeout">Searched card timeout</string>
+    <string name="swipe_failed">Swipe card failed</string>
+    <string name="swiped_rf_card">Searched RF card</string>
+    <string name="swiped_ic_card">Searched magnetic stripe cards</string>
+    <string name="card_number">Card Number</string>
+    <string name="first_track_data">First track data</string>
+    <string name="secound_track_data">Secound track data</string>
+    <string name="third_rack_data">Third rack data</string>
+    <string name="card_service_code">Card service code</string>
+    <string name="validity">Validity</string>
+    <string name="format_track_data">Format track data</string>
+    <string name="swiped_mgic_card">Searched IC card</string>
+    <string name="search_card_failed">Search card error，error code:</string>
+    <string name="cancel_search_card">Search card be canceled</string>
+    <string name="cancel_search_card_succuess">Cancel search card successed</string>
+    <string name="cancel_encrypted_search_card_succuess">Cancel encrypted search card successed</string>
+    <string name="kernel_data_read_success">Read kernel data successed</string>
+    <string name="kernel_data_read_failed">Read kernel data failed</string>
+    <string name="add_pub_key_params_success">Add public key params successed</string>
+    <string name="add_pub_key_params_failed">Add public key params failed</string>
+    <string name="update_pub_key_success">Update public key params successed</string>
+    <string name="update_pub_key_failed">Update publick key params failed</string>
+    <string name="clear_pub_key_success">Clear publick key params successed</string>
+    <string name="clear_pub_key_failed">Clear publick key params failed</string>
+    <string name="clear_pay_log_success">Clear pay log successed</string>
+    <string name="clear_ic_lay_log_failed">Clear IC card pay log failed</string>
+    <string name="pause_pboc_success">Pause PBOC process successed</string>
+    <string name="stop_pboc_success">Stop PBOC process successed</string>
+    <string name="add_aid_success">Add %d AID params successed</string>
+    <string name="add_aid_all_failed">Add %d AID params,all failed</string>
+    <string name="add_aid_failed">Add AID params failed</string>
+    <string name="update_aid_success">Update AID params successed</string>
+    <string name="update_aid_failed">Update AID params failed</string>
+    <string name="del_aid_success">Delete AID params successed</string>
+    <string name="del_aid_failed">Delete AID params failed</string>
+    <string name="set_params_success">Set params successed</string>
+    <string name="import_online_request_success">Import online request successed</string>
+    <string name="import_online_request_failed">Import online request failed</string>
+    <string name="check_aid_ca_key_result">Check AID and CA public key:</string>
+    <string name="check_aid_ca_key_result_failed">Check AID and CA failed</string>
+    <string name="readKernelEDData">Read kernel ED data</string>
+
+
+
+    <!--BarShow-->
+    <string name="barshow_name">状态栏控制</string>
+    <string name="s1">SYSTEM_UI_FLAG_VISIBLE</string>
+    <string name="s2">INVISIBLE</string>
+    <string name="s3">SYSTEM_UI_FLAG_FULLSCREEN</string>
+    <string name="s4">SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN</string>
+    <string name="s5">SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION</string>
+    <string name="s6">SYSTEM_UI_LAYOUT_FLAGS</string>
+    <string name="s7">SYSTEM_UI_FLAG_HIDE_NAVIGATION</string>
+    <string name="s8">SYSTEM_UI_FLAG_LOW_PROFILE</string>
+
+
+    <!--ERROR CODE-->
+    <string name="ERROR_CHECK_REFUSE_MAGCARD_FOR_ICCARD">The card with IC card function, CUP IC card priority than the magnetic stripe card, please use the IC card</string>
+
+    <!--NTAG-->
+    <string name="ntag">NTAG</string>
+    <string name="ntag_open">Open</string>
+    <string name="ntag_reset">Reset</string>
+    <string name="ntag_exists">Check card</string>
+    <string name="ntag_cardtype">Card type</string>
+    <string name="ntag_auth">Auth</string>
+    <string name="ntag_readblock">Read block</string>
+    <string name="ntag_writeblock">Write block</string>
+    <string name="ntag_halt">Halt</string>
+
+    <!--Desfire-->
+    <string name="Desfire">Desfire</string>
+    <string name="Desfire_open">Open</string>
+    <string name="Desfire_reset">Reset</string>
+    <string name="Desfire_exists">Check card</string>
+    <string name="Desfire_cardtype">Card type</string>
+    <string name="Desfire_cardid">Card ID</string>
+    <string name="Desfire_version">Version</string>
+
+</resources>

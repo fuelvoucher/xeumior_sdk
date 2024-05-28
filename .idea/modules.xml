@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ST8050B_DEMO_510CE_SMTTX_V2.0.2_user.iml" filepath="$PROJECT_DIR$/ST8050B_DEMO_510CE_SMTTX_V2.0.2_user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/String2Bitmap/String2BitmapLib.iml" filepath="$PROJECT_DIR$/String2Bitmap/String2BitmapLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

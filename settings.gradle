@@ -1,0 +1,2 @@
+include ':app', ':String2BitmapLib'
+project(':String2BitmapLib').projectDir = new File('String2Bitmap')

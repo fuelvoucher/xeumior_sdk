@@ -1,0 +1,513 @@
+<resources>
+    <string name="app_name">DEMO</string>
+    <string name="system_interface">系统接口</string>
+    <string name="magnetic_card1">磁条卡</string>
+    <string name="ic_card">IC卡</string>
+    <string name="nfc">NFC</string>
+    <string name="psam">PSAM卡</string>
+    <string name="pinpad">密码键盘</string>
+    <string name="printer">打印</string>
+    <string name="barcode">扫码</string>
+    <string name="beep">蜂鸣器</string>
+    <string name="led">LED</string>
+    <string name="decode">解码</string>
+    <string name="emv_test">EMV测试</string>
+
+
+    <!--SystemInfoActivity-->
+    <string name="getSerialNo">获取终端序列号</string>
+    <string name="getKsn">获取KSN号</string>
+    <string name="getDriverVersion">获取驱动版本号</string>
+    <string name="getSDKVersion">获取SDK版本号</string>
+    <string name="updateSysTime">更新系统时间</string>
+    <string name="getStoragePath">获取存储路径</string>
+    <string name="updateDriver">更新终端驱动</string>
+    <string name="getIMSI">获取IMSI号</string>
+    <string name="getModel">获取终端型号</string>
+    <string name="getICCID">获取SIM卡的ICCID</string>
+    <string name="getIMEI">获取IMEI号</string>
+    <string name="getHardwareInfo">获取硬件版本信息</string>
+    <string name="getSecurityDriverInfo">获取安全固件版本</string>
+    <string name="getManufactureName">获取厂商名称</string>
+    <string name="getAndroidOsVersion">获取Android系统信息</string>
+    <string name="getAndroidRomVersion">获取Rom版本信息</string>
+    <string name="getKernelVersion">获取内核版本信息</string>
+    <string name="reboot">重启终端</string>
+    <string name="updateFirmware">固件更新(2.0)</string>
+    <string name="getUpdateFirmwareState">查询更新的状态</string>
+    <string name="setAPN">设置APN</string>
+    <string name="reboot_confirm">确认重启终端</string>
+
+
+    <!--SwipeCardActivity-->
+    <string name="getTrackData">获取明文数据</string>
+    <string name="getEncryptTrackData">获取密文磁道数据</string>
+    <string name="getEncryptFormatTrackData">格式化磁道数据获取加密数据</string>
+    <string name="cancelSwipe">取消刷卡</string>
+
+    <string name="swipecard">请刷卡</string>
+    <string name="swipe_timeout">刷卡超时</string>
+    <string name="swipe_success">刷卡成功</string>
+    <string name="swipe_faile">刷卡失败</string>
+    <string name="track_data">磁道数据</string>
+    <string name="card_no">卡号</string>
+    <string name="expiryDate">有效期</string>
+    <string name="format_data">格式化磁道数据</string>
+    <string name="service_code">卡片服务码</string>
+    <string name="swipe_error">刷卡错误，错误码为</string>
+    <string name="swipe_canceled">刷卡被取消</string>
+    <string name="track2_encryptdata">加密第二磁道数据</string>
+    <string name="track3_encryptdata">加密第三磁道数据</string>
+    <string name="track_encryptdata">加密格式化磁道数据</string>
+    <string name="no_swipe">未刷卡</string>
+    <string name="interrupted_success">中断刷卡成功</string>
+    <string name="interrupted_error">中断刷卡异常</string>
+
+
+    <!--IC Card-->
+    <string name="ic_open">打开</string>
+    <string name="ic_reset">复位</string>
+    <string name="ic_exists">检卡</string>
+    <string name="ic_apdu">发送apdu命令</string>
+    <string name="ic_halt">断开</string>
+    <string name="ic_close">关闭</string>
+    <string name="ic_pboc">银联读卡</string>
+
+    <string name="ic_open_success">打开IC卡设备成功</string>
+    <string name="ic_open_faile">打开IC卡设备失败</string>
+    <string name="ic_dotnot_click_quickly">请勿快速点击</string>
+    <string name="ic_close_success">关闭IC卡设备成功</string>
+    <string name="ic_close_faile">关闭IC卡设备失败</string>
+    <string name="ic_halt_success">断开IC卡设备成功</string>
+    <string name="ic_halt_faile">断开IC卡设备失败</string>
+    <string name="ic_main_dir_result">选择主目录结果</string>
+    <string name="ic_apdu_faile">APDU数据交互失败</string>
+    <string name="ic_reset_result">卡片复位结果</string>
+    <string name="ic_reset_faile">卡片复位失败</string>
+    <string name="ic_card_exist">卡片已插入</string>
+    <string name="ic_card_notexist">未检测到卡片</string>
+
+    <!--NFC-->
+    <string name="nfc_card_type">卡片类型</string>
+
+    <string name="nfc_autoread">开始自动读卡</string>
+    <string name="nfc_autoread_stop">停止自动读卡</string>
+    <string name="nfc_open">打开</string>
+    <string name="nfc_reset">复位</string>
+    <string name="nfc_exists">检卡</string>
+    <string name="nfc_cardtype">卡片类型</string>
+    <string name="nfc_apdu">发送apdu命令</string>
+    <string name="nfc_pboc">银联读卡</string>
+    <string name="nfc_auth">认证</string>
+    <string name="nfc_readblock">读块数据</string>
+    <string name="nfc_writeblock">写块数据</string>
+    <string name="nfc_halt">断开</string>
+
+
+    <string name="nfc_open_success">打开设备成功</string>
+    <string name="nfc_open_faile">打开设备失败</string>
+    <string name="nfc_close_success">关闭设备成功</string>
+    <string name="nfc_close_faile">关闭设备失败</string>
+    <string name="nfc_card_exist">检测到卡片</string>
+    <string name="nfc_card_notexist">未检测到卡片</string>
+
+    <string name="nfc_halt_success">断开设备成功</string>
+    <string name="nfc_halt_faile">断开设备失败</string>
+    <string name="nfc_read_cardtype_faile">卡类型读取失败</string>
+    <string name="nfc_read_cardtype_success">卡类型:</string>
+    <string name="nfc_apdu_success">APDU命令返回</string>
+    <string name="nfc_apdu_faile">APDU执行失败</string>
+    <string name="nfc_auth_result">认证返回结果为:</string>
+    <string name="nfc_auth_success">认证成功</string>
+    <string name="nfc_auth_faile">认证失败</string>
+    <string name="nfc_read_success">读取块数据成功</string>
+    <string name="nfc_read_faile">读取块数据失败</string>
+
+    <string name="nfc_write_result">写块数据返回结果为:</string>
+    <string name="nfc_write_success">写块数据成功</string>
+    <string name="nfc_write_faile">写块数据失败</string>
+
+
+    <!--打印机-->
+    <string name="print_status">获取打印机状态</string>
+    <string name="print_text">打印文本</string>
+    <string name="print_code">打印条码</string>
+    <string name="print_pic">打印图片</string>
+    <string name="print_qrcode">打印二维码</string>
+
+
+    <string name="print_success">打印成功</string>
+    <string name="print_faile">打印失败</string>
+    <string name="print_faile_errcode">打印失败,错误码：</string>
+
+    <string name="get_print_status">获取到的打印机状态为：</string>
+
+
+    <string name="print_begin">开始打印,开始时间是：</string>
+
+    <string name="print_data1">默认打印数据测试</string>
+    <string name="print_data2">打印数据字体放大</string>
+    <string name="print_data3">打印数据加粗</string>
+    <string name="print_data4">打印数据左对齐测试</string>
+    <string name="print_data5">打印数据居中对齐测试</string>
+    <string name="print_data6">打印数据右对齐测试</string>
+    <string name="print_data7">打印数据下划线</string>
+    <string name="print_data8">打印数据不换行测试打印数据不换行测试打印数据不换行测试</string>
+    <string name="print_data9">打印数据行间距测试</string>
+    <string name="print_data10">打印数据字符间距测试</string>
+    <string name="print_data11">打印数据左边距测试</string>
+    <string name="print_end">打印完成,结束时间是：</string>
+    <string name="print_Arabic">阿拉伯语打印</string>
+    <string name="print_sabra">希伯来语打印</string>
+
+
+    <!--卡片类型-->
+    <string name="card_type_m1">M1卡</string>
+    <string name="card_type_nfc_cpu">CPU卡</string>
+    <string name="card_type_auto">自动读卡</string>
+
+
+    <!--PSAM-->
+    <string name="psam_slot">PSAM卡号序号</string>
+    <string name="psam_open">打开</string>
+    <string name="psam_reset">复位</string>
+    <string name="psam_apdu">发送apdu命令</string>
+    <string name="psam_halt">断开</string>
+    <string name="psam_open_success">PSAM卡设备打开成功</string>
+    <string name="psam_open_faile">PSAM卡设备打开失败</string>
+    <string name="psam_reset_success">PSAM卡复位成功</string>
+    <string name="psam_reset_faile">PSAM卡复位失败</string>
+    <string name="psam_close_success">PSAM卡设备关闭成功</string>
+    <string name="psam_close_faile">PSAM卡设备关闭失败</string>
+
+
+    <!--扫码-->
+    <string name="qrcode">扫码</string>
+    <string name="qrcode_stop">停止扫码</string>
+    <string name="qrcode_back_camera">开始后置摄像头扫码</string>
+    <string name="qrcode_result">扫码结果是</string>
+    <string name="qrcode_cancel">取消扫码</string>
+    <string name="qrcode_timeout">扫码超时</string>
+    <string name="qrcode_openfaile">摄像头打开失败</string>
+
+
+    <!--解码-->
+    <string name="decode_init">初始化</string>
+    <string name="decode1">解码</string>
+    <string name="decode_init_success">解码初始化成功</string>
+    <string name="decode_init_faile">解码初始化失败</string>
+    <string name="decode_data">解码数据为:</string>
+    <string name="decode_data_non">无解码数据</string>
+    <string name="decode_exit">解码退出成功</string>
+
+
+    <!--蜂鸣器-->
+    <string name="beep_start">启动蜂鸣器</string>
+    <string name="beep_stop">停止蜂鸣器</string>
+
+
+    <!--LED-->
+    <string name="led_start">开始跑马灯</string>
+    <string name="led_stop">停止跑马灯</string>
+
+    <!--Other-->
+    <string name="tip_cmd">接口方法</string>
+    <string name="tip_log">日志</string>
+    <string name="confirm">确认</string>
+    <string name="cancel">取消</string>
+    <string name="result">结果</string>
+    <string name="error_code">错误码是:</string>
+
+
+    <!--pinpad-->
+    <string name="pinpad_type">请选择密码键盘类型</string>
+    <string name="pinpad_type_internal">内置</string>
+    <string name="pinpad_type_external">外置</string>
+    <string name="pinpad_mode">密码键盘模式设置</string>
+    <string name="pinpad_mode_sequence">顺序</string>
+    <string name="pinpad_mode_random">乱序</string>
+
+
+    <string name="pinpad_read_pin">读取联机PIN</string>
+    <string name="pinpad_set_pin_second">PIN输入二次</string>
+    <string name="pinpad_input_masterkey">注入主密钥明文</string>
+    <string name="pinpad_input_pik">注入PIK</string>
+    <string name="pinpad_input_tdk">注入TDK</string>
+    <string name="pinpad_input_masterkey_mak">注入主密钥加密的MAK</string>
+    <string name="pinpad_encrypt_tdk">TDK数据加密</string>
+    <string name="pinpad_get_random">获取随机数</string>
+    <string name="pinpad_cancel_input_pin">取消PIN输入</string>
+    <string name="pinpad_get_offline_pin">读取脱机PIN</string>
+    <string name="pinpad_input_tek">注入TEK</string>
+    <string name="pinpad_input_tek_encrypt_masterkey">注入TEK加密的主密钥</string>
+    <string name="pinpad_input_tek_encrypt_mak">注入TEK加密的MAK</string>
+    <string name="pinpad_input_tek_pik">注入TEK加密的PIK</string>
+    <string name="pinpad_input_tek_tdk">注入TEK加密的TDK</string>
+    <string name="pinpad_compute_mac">MAC计算</string>
+    <string name="pinpad_show">密码键盘显示</string>
+    <string name="pinpad_confim_input">确认PIN输入</string>
+    <string name="pinpad_get_dukpt_pin">读取dukpt PIN</string>
+    <string name="pinpad_get_ksn">KSN:</string>
+    <string name="pinpad_dukpt_inject">注入DUKPT密钥</string>
+    <string name="pinpad_inject_dukpt_key">注入DUKPT密钥</string>
+    <string name="ok">确定</string>
+    <string name="pinpad_input_error_lenght">输入长度错误</string>
+    <string name="pinpad_please_input_code">ksn无效</string>
+    <string name="input_ksn">KSN</string>
+    <string name="input_dukpt_key">DUKPT</string>
+    <string name="pin_dukpt_key_inject_success">注入dukpt成功</string>
+    <string name="pin_dukpt_key_inject_fail">注入dukpt失败</string>
+
+    <string name="pin_mac_error_code">获取mac错误码:</string>
+    <string name="pin_mac_919_mac_success1">获取mac1成功</string>
+    <string name="pin_mac_ecb_mac_success1">获取ecb mac成功</string>
+    <string name="pin_mac_919_mac_success2">获取mac成功</string>
+    <string name="pin_mac_ecb_mac_success2">获取ecb mac成功</string>
+    <string name="pinpad_dukpt_get_mac">dukpt获取mac</string>
+
+
+    <string name="pinpad_mess1">暂不支持外置密码键盘,请选择内置密码键盘</string>
+    <string name="pinpad_input_pin">请输入PIN</string>
+    <string name="pinpad_cancel_pin">您取消了PIN输入</string>
+    <string name="pinpad_error_pin">读取PIN输入错误，错误码:</string>
+    <string name="pinpad_success_pin">PIN输入成功</string>
+    <string name="pinpad_empty_pin">,您输入了空密码</string>
+    <string name="pinpad_is_pin">,PIN为</string>
+
+    <string name="pinpad_injectMain">注入主密钥明文</string>
+    <string name="pinpad_injectMain_confirm">请确认是否注入无效主密钥</string>
+    <string name="pinpad_master_key">主密钥明文：</string>
+    <string name="pinpad_master_key_fill_success">主密钥灌装成功</string>
+    <string name="pinpad_master_key_fill_faile">主密钥灌装失败</string>
+    <string name="pinpad_pik_master">PIK 密文(主)：</string>
+    <string name="pinpad_pik_fill_success">PIK注入成功</string>
+    <string name="pinpad_pik_fill_faile">PIK注入失败</string>
+
+
+    <string name="pinpad_tdk_master">TDK 密文(主)：</string>
+    <string name="pinpad_tdk_fill_success">TDK注入成功</string>
+    <string name="pinpad_tdk_fill_faile">TDK注入失败</string>
+
+    <string name="pinpad_mak_master">MAK 密文(主)：</string>
+    <string name="pinpad_mak_fill_success">MAK注入成功</string>
+    <string name="pinpad_mak_fill_faile">MAK注入失败</string>
+
+    <string name="pinpad_encrypt_data">待加密数据</string>
+    <string name="pinpad_encrypt_success">数据加密成功</string>
+    <string name="pinpad_encrypt_faile">数据加密失败</string>
+
+    <string name="pinpad_getrandom_success">获取随机数成功</string>
+    <string name="pinpad_getrandom_faile">获取随机数失败</string>
+
+    <string name="pinpad_cancel_success">中断PIN输入成功</string>
+    <string name="pinpad_cancel_error">中断PIN输入异常</string>
+
+
+    <string name="pinpad_injectTEK">注入TEK 明文</string>
+    <string name="pinpad_injectTEK_confirm">请确认是否注入无效TEK</string>
+    <string name="pinpad_TEK_key">TEK 明文：</string>
+    <string name="pinpad_TEK_fill_success">TEK灌装成功</string>
+    <string name="pinpad_TEK_fill_faile">TEK灌装失败</string>
+    <string name="pinpad_master">主密钥密文：</string>
+    <string name="pinpad_master_fill_success">主密钥灌装成功</string>
+    <string name="pinpad_master_fill_faile">主密钥灌装失败</string>
+
+    <string name="pinpad_mak_tek_master">MAK 密文(TEK)：</string>
+    <string name="pinpad_mak_tek_fill_success">工作密钥灌装成功</string>
+    <string name="pinpad_mak_tek_fill_faile">工作密钥灌装失败</string>
+
+    <string name="pinpad_pik_tek_master">PIK 密文(TEK)：</string>
+    <string name="pinpad_pik_tek_fill_success">工作密钥灌装成功</string>
+    <string name="pinpad_pik_tek_fill_faile">工作密钥灌装失败</string>
+
+    <string name="pinpad_tdk_tek_master">TDK 密文(TEK)：</string>
+    <string name="pinpad_tdk_tek_fill_success">工作密钥灌装成功</string>
+    <string name="pinpad_tdk_tek_fill_faile">工作密钥灌装失败</string>
+
+    <string name="pinpad_mac_error">mac计算失败，错误码为:</string>
+    <string name="pinpad_mac_error1">不含随机数，x919执行MAC计算成功，值为:</string>
+    <string name="pinpad_mac_error2">不含随机数，银联ECB执行MAC计算成功，值为:</string>
+    <string name="pinpad_mac_error3">含随机数,x919执行MAC计算成功，值为:</string>
+    <string name="pinpad_mac_error4">含随机数,银联ECB执行MAC计算成功，值为:</string>
+
+    <string name="pinpad_balance">余额:</string>
+    <string name="pinpad_display_success">显示成功</string>
+    <string name="pinpad_display_faile">显示失败</string>
+    <string name="pinpad_confirm_pin_success">确认PIN输入成功</string>
+
+
+    <!--PBOC-->
+
+
+    <string name="check_card">检卡</string>
+    <string name="check_card_with_encrypted_TDK">检卡并输出磁道密文</string>
+    <string name="send_apdu_instruction">发送APDU指令</string>
+    <string name="disconnect">断开连接</string>
+    <string name="amount">金额</string>
+    <string name="next_step">下一步</string>
+    <string name="input_keyboard_display_mode">请输入密码键盘显示模式(0或1)</string>
+    <string name="connection">连接</string>
+    <string name="set_network_panel_display">设置网络面板显示</string>
+    <string name="set_network_panel_not_display">设置网络面板不显示</string>
+    <string name="get_network_panel_is_displayed">获取网络面板是否显示</string>
+    <string name="set_panel_blue">设置面板蓝色</string>
+    <string name="set_panel_white">设置面板白色</string>
+    <string name="get_panel_color">获取面板颜色</string>
+    <string name="set_3G_signal_is_displayed">设置3G信号是否显示</string>
+    <string name="set_clock_is_displayed">设置时钟是否显示</string>
+    <string name="restore">恢复出厂设置</string>
+    <string name="set_panel_color">设置面板颜色</string>
+    <string name="set_date_is_displayed">设置日期是否显示</string>
+    <string name="set_ethernet_connection_is_displayed">设置以太网连接是否显示</string>
+    <string name="set_wifi_status_coexist_with_3G">设置wifi状态是否与3G并存</string>
+    <string name="set_display_wifi_icon">设置是否显示wifi图标</string>
+    <string name="get_web_panel_coordinates">获取网络面板坐标</string>
+    <string name="set_web_panel_coordinates">设置网络面板坐标</string>
+    <string name="get_date_format">获取日期格式</string>
+    <string name="set_time_format">设置时间格式</string>
+    <string name="get_time_format">获取时间格式</string>
+    <string name="set_date_format">设置日期格式</string>
+    <string name="cancel_check_card">取消检卡</string>
+    <string name="cancel_check_encrypted_card">取消磁道密⽂检卡</string>
+    <string name="consume">消费</string>
+    <string name="read_e_cash_balance">读取电子现金余额</string>
+    <string name="read_card_transaction_log">读取卡片交易日志</string>
+    <string name="read_the_looped_log">读取圈存日志</string>
+    <string name="read_kernel_data">读取内核数据</string>
+    <string name="increase_public_key_parameters">增加公钥参数</string>
+    <string name="update_public_key_parameters">更新公钥参数</string>
+    <string name="clear_public_key_parameters">清空公钥参数</string>
+    <string name="clear_the_transaction_log">清除交易日志</string>
+    <string name="interrupt_the_PBOC_process">中断PBOC流程</string>
+    <string name="end_the_PBOC_process">结束PBOC流程</string>
+    <string name="add_aid">增加AID参数</string>
+    <string name="update_aid">更新AID参数</string>
+    <string name="clear_aid">清空AID参数</string>
+    <string name="set_tlv1">设置终端参数</string>
+    <string name="set_tlv2">设置终端参数(编码UTF-8)</string>
+    <string name="set_tlv3">设置终端参数(编码UTF-16)</string>
+    <string name="set_tlv4">设置终端参数(编码GBK)</string>
+    <string name="import_online_result">导入联机交易结果</string>
+    <string name="isexist_aid_publicKey">判断aid和ca是否存在</string>
+
+    <string name="confirm_account_type">请求账户类型确认</string>
+    <string name="account_type">账户类型</string>
+    <string name="account_number">账户</string>
+    <string name="conform_information">请求提示信息确认</string>
+    <string name="input_offline_pin">请输入脱机PIN</string>
+    <string name="input_frequency">当前次数</string>
+    <string name="is_final_input_frequency">"是否为最后一次"</string>
+    <string name="amount_msg">交易金额:</string>
+    <string name="import_amount_type">金额导入类型</string>
+    <string name="import_amount">请导入交易金额</string>
+    <string name="confirm_electronic_cash">请求电子现金信息确认</string>
+    <string name="choice_app_list">请选择应用列表</string>
+    <string name="application_list_content">应用列表内容</string>
+    <string name="PBOC_result">PBOC流程处理结果</string>
+    <string name="allow_trading">交易批准</string>
+    <string name="Refuse_to_deal">交易拒绝</string>
+    <string name="stop_trading">交易终止</string>
+    <string name="downgrade">降级</string>
+    <string name="user_other_view">采用其他界面</string>
+    <string name="unknown_exception">未知错误</string>
+    <string name="request_online">请求联机</string>
+    <string name="transaction_information">条交易日志信息</string>
+    <string name="trans_type">交易类型:</string>
+    <string name="trans_time">交易时间:</string>
+    <string name="trans_date">交易日期:</string>
+    <string name="other_amount">其他金额:</string>
+    <string name="currency_code">货币代码:</string>
+    <string name="merchants_name">商户名称:</string>
+    <string name="country_code">国家代码:</string>
+    <string name="amount_of_the_transaction">交易金额</string>
+    <string name="transaction_statistics">交易计数器</string>
+    <string name="first_e_cash_money_code">第一电子现金货币代码</string>
+    <string name="first_e_cash_balance">第一电子现金余额</string>
+    <string name="second_e_cash_money_code">第二电子现金货币代码</string>
+    <string name="second_e_cash_balance">第二电子现金余额</string>
+    <string name="log_check_code">日志校验码</string>
+    <string name="log_info_index">第%d条圈存日志信息</string>
+    <string name="pboc_error">PBOC处理出错</string>
+    <string name="card_info">卡号信息</string>
+    <string name="please_confirm">请确认</string>
+    <string name="insert_or_swipe_card">请刷卡或挥卡或插卡</string>
+    <string name="search_card_timeout">检卡超时</string>
+    <string name="swipe_failed">刷卡失败</string>
+    <string name="swiped_rf_card">检测到非接卡</string>
+    <string name="swiped_ic_card">检测到磁条卡</string>
+    <string name="card_number">卡号</string>
+    <string name="first_track_data">一磁道数据</string>
+    <string name="secound_track_data">二磁道数据</string>
+    <string name="third_rack_data">三磁道数据</string>
+    <string name="card_service_code">卡片服务码</string>
+    <string name="validity">有效期</string>
+    <string name="format_track_data">格式化磁道数据</string>
+    <string name="swiped_mgic_card">检测到接触式IC卡</string>
+    <string name="search_card_failed">检卡错误，错误码</string>
+    <string name="cancel_search_card">检卡被取消</string>
+    <string name="cancel_search_card_succuess">取消检卡成功</string>
+    <string name="cancel_encrypted_search_card_succuess">取消磁道加密检卡成功</string>
+    <string name="kernel_data_read_success">内核数据读取成功</string>
+    <string name="kernel_data_read_failed">内核数据读取失败</string>
+    <string name="add_pub_key_params_success">增加公钥参数成功</string>
+    <string name="add_pub_key_params_failed">增加公钥参数失败</string>
+    <string name="update_pub_key_success">更新公钥参数成功</string>
+    <string name="update_pub_key_failed">更新公钥参数失败</string>
+    <string name="clear_pub_key_success">清空公钥参数成功</string>
+    <string name="clear_pub_key_failed">清空公钥参数失败</string>
+    <string name="clear_pay_log_success">清除交易日志成功</string>
+    <string name="clear_ic_lay_log_failed">清除IC卡交易日志失败</string>
+    <string name="pause_pboc_success">中断PBOC交易成功</string>
+    <string name="stop_pboc_success">结束PBOC交易成功</string>
+    <string name="add_aid_success">成功增加了%d条AID参数</string>
+    <string name="add_aid_all_failed">增加%d条AID参数,都增加失败</string>
+    <string name="add_aid_failed">增加AID参数失败</string>
+    <string name="update_aid_success">更新AID参数成功</string>
+    <string name="update_aid_failed">更新AID参数失败</string>
+    <string name="del_aid_success">删除AID参数成功</string>
+    <string name="del_aid_failed">删除AID参数失败</string>
+    <string name="set_params_success">参数设置成功</string>
+    <string name="import_online_request_success">导入联机应答结果成功</string>
+    <string name="import_online_request_failed">导入联机应答结果失败</string>
+    <string name="check_aid_ca_key_result">判断aid和ca公钥结果:</string>
+    <string name="check_aid_ca_key_result_failed">判断aid和ca公钥结果失败</string>
+    <string name="readKernelEDData">读取内核加密数据</string>
+
+
+    <!--ERROR CODE-->
+    <string name="ERROR_CHECK_REFUSE_MAGCARD_FOR_ICCARD">该卡片带有IC卡功能，银联IC卡优先级高于磁条卡，请使用IC卡</string>
+
+
+    <!--BarShow-->
+    <string name="barshow_name">状态栏控制</string>
+    <string name="s1">SYSTEM_UI_FLAG_VISIBLE</string>
+    <string name="s2">INVISIBLE</string>
+    <string name="s3">SYSTEM_UI_FLAG_FULLSCREEN</string>
+    <string name="s4">SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN</string>
+    <string name="s5">SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION</string>
+    <string name="s6">SYSTEM_UI_LAYOUT_FLAGS</string>
+    <string name="s7">SYSTEM_UI_FLAG_HIDE_NAVIGATION</string>
+    <string name="s8">SYSTEM_UI_FLAG_LOW_PROFILE</string>
+
+    <!--NTAG-->
+    <string name="ntag">NTAG</string>
+    <string name="ntag_open">打开</string>
+    <string name="ntag_reset">复位</string>
+    <string name="ntag_exists">检卡</string>
+    <string name="ntag_cardtype">卡片类型</string>
+    <string name="ntag_auth">认证</string>
+    <string name="ntag_readblock">读块数据</string>
+    <string name="ntag_writeblock">写块数据</string>
+    <string name="ntag_halt">断开</string>
+
+
+    <!--Desfire-->
+    <string name="Desfire">Desfire</string>
+    <string name="Desfire_open">打开</string>
+    <string name="Desfire_reset">复位</string>
+    <string name="Desfire_exists">检卡</string>
+    <string name="Desfire_cardtype">卡片类型</string>
+    <string name="Desfire_cardid">卡片ID</string>
+    <string name="Desfire_version">版本号</string>
+
+</resources>
